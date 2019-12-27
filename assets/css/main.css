@@ -2506,3 +2506,13 @@ input, select, textarea {
 	margin-bottom: 0;
 	padding-bottom: 2em;
 }
+
+.language-select {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.language-select a {
+	margin: 0 5%;
+}
