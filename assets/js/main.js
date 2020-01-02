@@ -19,7 +19,7 @@
 
 	// Play initial animations on page load.
 		$window.on('load', function() {
-			$(':lang(jp)').hide();
+			$(':lang(en)').hide();
 
 			$('#lang-en').click(function () {
 				$(':lang(jp)').hide();
